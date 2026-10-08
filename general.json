@@ -1,0 +1,1393 @@
+{
+  "kind": "kiokuyomiRuleCollection",
+  "schemaVersion": 1,
+  "name": "KiokuYomi 综合（不含成人来源）",
+  "catalogSequence": 39,
+  "releaseId": "rules-b5205e277c992a74-20260927130644",
+  "count": 153,
+  "minimumRuleEngineVersion": 1,
+  "bundle": {
+    "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/general.kyybundle",
+    "bytes": 345212,
+    "sha256": "eb554ae763eb355a46809448fc5b8722e7f28ce9ed0d5cd9df1d1218674a3292"
+  },
+  "rules": [
+    {
+      "id": "mangadex",
+      "name": "MangaDex",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangadex.kyyrule",
+      "packageBytes": 4260,
+      "packageSha256": "e424842406faacd9966038683705faf56d22c04d4251a7b3eb7fe9f70c4adfce",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "peppercarrot",
+      "name": "Pepper&Carrot",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/peppercarrot.kyyrule",
+      "packageBytes": 1280,
+      "packageSha256": "1e45c12ec9f0d4cc3ecf3f8fff5fbffee8eb49cd7003d49342b5d18c0fe18c3f",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "webtoons-en",
+      "name": "WEBTOON English",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/webtoons-en.kyyrule",
+      "packageBytes": 1776,
+      "packageSha256": "65d035aeb7c050592dc2323ad367677b3664804196ca295a718b44c5dd594719",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "scmp-news",
+      "name": "SCMP News",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/scmp-news.kyyrule",
+      "packageBytes": 1625,
+      "packageSha256": "4953a909c21ae03e2932f0c01e06320774d65cbbe9f42bba8078c58c0fc21a9e",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "holonometria",
+      "name": "HOLONOMETRIA",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/holonometria.kyyrule",
+      "packageBytes": 1288,
+      "packageSha256": "1e16d6cfebee36660918e52546591a9b08ece3c4d9f5bc6b7aca077a1360f5a4",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "smbc",
+      "name": "SMBC",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/smbc.kyyrule",
+      "packageBytes": 1689,
+      "packageSha256": "4835995f670e8d66e46ac2a99c05dfccc4e250d0d3830a134b06e7bd3bd0acf5",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangabz",
+      "name": "MangaBZ",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangabz.kyyrule",
+      "packageBytes": 2912,
+      "packageSha256": "aa84e8cf48d3b364528edd79fa0b7081f6671a79b791c281ef2dfccfadced0d8",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "baozimh-plus",
+      "name": "包子漫画+",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/baozimh-plus.kyyrule",
+      "packageBytes": 2833,
+      "packageSha256": "ac801b5e45b9ddcb17e362047b1d5ccb59613391013f27cedf8e28eb6675fe8c",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "godamanga",
+      "name": "G社漫畫",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/godamanga.kyyrule",
+      "packageBytes": 2714,
+      "packageSha256": "c71c5721228ba6e0a4a590f24fb5d1c0660334a85a08e30129e5044b1565ad96",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "miaoqumh",
+      "name": "妙趣漫画",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/miaoqumh.kyyrule",
+      "packageBytes": 3688,
+      "packageSha256": "65d82f1c90e7ab44289fafb0fbe10a42c708ac245a180c535b9d91764f1f3e1e",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "dragonball-multiverse",
+      "name": "Dragon Ball Multiverse",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/dragonball-multiverse.kyyrule",
+      "packageBytes": 1330,
+      "packageSha256": "c2d313a68957f4cd12de5850a253c4c64023e9fe67fe86ac28b14e71b6b2d3fe",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangareader-site",
+      "name": "MangaReader.site",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangareader-site.kyyrule",
+      "packageBytes": 1422,
+      "packageSha256": "8d9efd87090c2689041754c3264e35ec6b874c02c28ee2cd985349ec7a7ea880",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mgeko",
+      "name": "Mgeko",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mgeko.kyyrule",
+      "packageBytes": 2482,
+      "packageSha256": "8ef4ff1ac16b4bc0ccd12a7db18a9d6a0320047a2aeffaa317e91683eae80f28",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangahubio",
+      "name": "MangaHub",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangahubio.kyyrule",
+      "packageBytes": 2258,
+      "packageSha256": "10f2207dc5c220fa3fdd1952c6a643594418b34cb79f95214c2d974b020a5e0d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "asurascans",
+      "name": "Asura Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/asurascans.kyyrule",
+      "packageBytes": 2446,
+      "packageSha256": "22a78fcba461cad84cb31f05e4b0aa928334f0d1e986070466eec8d6f87cd4f4",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "manhwaz",
+      "name": "ManhwaZ",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/manhwaz.kyyrule",
+      "packageBytes": 2070,
+      "packageSha256": "aef7ee3ff7813e26a6c3f83a57b38610e5f261a0cfca1312d4aebfb4f77d7c66",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "grabber-zone",
+      "name": "Grabber Zone",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/grabber-zone.kyyrule",
+      "packageBytes": 1445,
+      "packageSha256": "1253348d59d31d98eddf65168b67257e20dd93323baa4afe2258671a2b552aea",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "manhwatop",
+      "name": "ManhwaTop",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/manhwatop.kyyrule",
+      "packageBytes": 2409,
+      "packageSha256": "5bbdd69a238866072d6f9dd37bd36dadcfa7614e18212b7befc0c635ac66be1c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "manhuascans-org",
+      "name": "GodaComic",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/manhuascans-org.kyyrule",
+      "packageBytes": 2565,
+      "packageSha256": "79690fa2202437d01dad5ae4e77ad4a82a143db37534527a11989712a42d9cfe",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "2cycomic",
+      "name": "次元",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/2cycomic.kyyrule",
+      "packageBytes": 3301,
+      "packageSha256": "27d732cbc2410f57ae57cfa95575bf33a95dc8de209f5e4f90999e2df5300b66",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangaepic",
+      "name": "MangaEPIC",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangaepic.kyyrule",
+      "packageBytes": 1562,
+      "packageSha256": "7aa2a7979a34a1534b8d490eb479733d31dc0de29c0ce4a3ee04d909973d523e",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-1manga-co",
+      "name": "1Manga.co",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-1manga-co.kyyrule",
+      "packageBytes": 2337,
+      "packageSha256": "b17bda9f72c87f407513f77ca90864ac6a690a6e711638d5d5a1c006b49a246b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-big-comics",
+      "name": "Big Comics",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-big-comics.kyyrule",
+      "packageBytes": 2349,
+      "packageSha256": "d7fd24a6eae0409cae93afaf9c271591fcd57abef696c056dd26529bc23042c3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-blue-solo",
+      "name": "Blue Solo",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-blue-solo.kyyrule",
+      "packageBytes": 1364,
+      "packageSha256": "4529ea8dbef047b646d608e0507ae73f010f711506d22523596c94a37a74fbb2",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-champion-cross",
+      "name": "Champion Cross",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-champion-cross.kyyrule",
+      "packageBytes": 2362,
+      "packageSha256": "bbf4cd67da0c38ae4c6e796496dccd4b7ede075c9e3e131963aa67c0a1116291",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-days",
+      "name": "Comic Days",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-days.kyyrule",
+      "packageBytes": 1638,
+      "packageSha256": "0deb14ae4ff913f27afc867a02f956acb0bb8be39fd7add7a1d1e655a409dea8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-earth-star",
+      "name": "Comic Earth Star",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-earth-star.kyyrule",
+      "packageBytes": 1650,
+      "packageSha256": "666ef73eabfa5c30b838c22ca33bb9495829e018afd5bd7def18aa360f4aad54",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-gardo",
+      "name": "Comic Gardo",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-gardo.kyyrule",
+      "packageBytes": 2032,
+      "packageSha256": "41d01e8bb889cba2b6fe2900bd69f3f38bbfac03e6b1f5dba3a280806f427cdc",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-pash",
+      "name": "Comic Pash",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-pash.kyyrule",
+      "packageBytes": 2309,
+      "packageSha256": "4e7f34878b14081fbbbd111810722ac42093ef16b141b9ef0ef8162a2894b452",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-ride",
+      "name": "Comic Ride",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-ride.kyyrule",
+      "packageBytes": 2349,
+      "packageSha256": "a18129eedc33ef1e3307091ca199c46db0d0d4ef6dffb23acfb4b6fc52b68b98",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comic-y-ours",
+      "name": "Comic Y-OURs",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comic-y-ours.kyyrule",
+      "packageBytes": 1946,
+      "packageSha256": "3a13a5aa17eba75471c06658faa3ad1f5327100aa1e73dcb9d9d045714272290",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-death-toll-scans",
+      "name": "Death Toll Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-death-toll-scans.kyyrule",
+      "packageBytes": 1434,
+      "packageSha256": "1ae1948aa1a3ce3629941eaaff6d3cea4bb7733b01936e048050b702105acc98",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-vi-dilib",
+      "name": "Digital Library",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-vi-dilib.kyyrule",
+      "packageBytes": 1390,
+      "packageSha256": "050666e1657d13b5636f980754bc5718341a1fc9b6cbad61c2c0c86ddcfa0f3c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-es-eternalmangas",
+      "name": "EternalMangas",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-es-eternalmangas.kyyrule",
+      "packageBytes": 1474,
+      "packageSha256": "bbcd7f75bd9b74641648e534c260f1f779ecd9fcffd2451a8313a0b07a3efb86",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-ezmanga",
+      "name": "EzManga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-ezmanga.kyyrule",
+      "packageBytes": 1673,
+      "packageSha256": "68bcfad0cf4f83e578ee5c88592e3ff7d87f85f58f7db9afdb2ff908a61e59cd",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-flamecomics",
+      "name": "Flame Comics",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-flamecomics.kyyrule",
+      "packageBytes": 1440,
+      "packageSha256": "e5fff1a65efc29f9440465e8435b87ca447d654aa109f73cd6b90d93ff8c358a",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-fr-fmteam",
+      "name": "FMTeam.fr",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-fr-fmteam.kyyrule",
+      "packageBytes": 1333,
+      "packageSha256": "561f28e7cc0d32d866b8fb287c4cdcc47e1de9717f16ebfed17659f369c9a0ff",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-vi-foxtruyen",
+      "name": "FoxTruyen",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-vi-foxtruyen.kyyrule",
+      "packageBytes": 1430,
+      "packageSha256": "4ae4c13a3c581c5984338e5f9ee14f441906dccd0f14c6fe113be0f09c256800",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-g-comi",
+      "name": "G-Comi",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-g-comi.kyyrule",
+      "packageBytes": 2224,
+      "packageSha256": "6399898f7a4a59305f722454692d2d1c240010d2f541fadb97bcd5c932f38782",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-gto-the-great-site",
+      "name": "GTO The Great Site",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-gto-the-great-site.kyyrule",
+      "packageBytes": 1398,
+      "packageSha256": "11f3420140c471472f3dd1169f5b0e26349a7027515aa2fbaecf32ea3b7a01b3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-guya",
+      "name": "Guya",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-guya.kyyrule",
+      "packageBytes": 1416,
+      "packageSha256": "3e729dcaffda494ee4a53342abdd319ac2fb982e4bd1c33f32d057f4ffcd51a0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-hana-to-yume",
+      "name": "Hana To Yume+",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-hana-to-yume.kyyrule",
+      "packageBytes": 2365,
+      "packageSha256": "89ec29ee0b31f0b7d6eff3b593f9bd66fe77cedd505a46b75dc4ca23fc0e9837",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-hero-s-web",
+      "name": "HERO'S Web",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-hero-s-web.kyyrule",
+      "packageBytes": 2305,
+      "packageSha256": "0caabc42e8fca05fa2df892454bda02b24daf46ab2f04386184e13bd6a7a5fdc",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-hijala-scans",
+      "name": "Hijala Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-hijala-scans.kyyrule",
+      "packageBytes": 2172,
+      "packageSha256": "a84a51358c5672cee2908ed260f1c353a8acc63fc96df1c9f84d8349da510072",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-hni-scantrad",
+      "name": "HNI-Scantrad",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-hni-scantrad.kyyrule",
+      "packageBytes": 1373,
+      "packageSha256": "5cc17b9ee1d546fd5ac7754c1df32ffa447ab44b246535cd21c3d6ffc4d663ac",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-ichicomi",
+      "name": "Ichicomi",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-ichicomi.kyyrule",
+      "packageBytes": 3010,
+      "packageSha256": "84560cb8973151d8db98c66da7512733d69dcb3620dc8c9b2bbf86a31d93720c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-j-n-books",
+      "name": "J-N Books",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-j-n-books.kyyrule",
+      "packageBytes": 2173,
+      "packageSha256": "f453a02062193172c230d81c35cbbef19308d6942794425eac468f41684823d7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-juin-jutsu-team-reader",
+      "name": "Juin Jutsu Team Reader",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-juin-jutsu-team-reader.kyyrule",
+      "packageBytes": 1458,
+      "packageSha256": "faa3e221b4d9feb7f203c883615b878c00fd68fc6d0be03a4af6db8ad936576f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-ken-scans",
+      "name": "Ken Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-ken-scans.kyyrule",
+      "packageBytes": 2041,
+      "packageSha256": "bf8d5975b7bf4333b97e6cb289ebd36e962fac9cc73eb27573bb768f2835b7f2",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-kimicomi",
+      "name": "KimiComi",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-kimicomi.kyyrule",
+      "packageBytes": 2310,
+      "packageSha256": "e764ef86460f8aa47151bfbb49955b002b466e6a58ca1dd34c1fdd119ba9acef",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-kurage-bunch",
+      "name": "Kurage Bunch",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-kurage-bunch.kyyrule",
+      "packageBytes": 1974,
+      "packageSha256": "95e656a0c8a3d8bdd72a19a8be8ff8579908ca0ba86cd26d7d4cb99c84250d7c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-lolivault",
+      "name": "Lolivault",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-lolivault.kyyrule",
+      "packageBytes": 1409,
+      "packageSha256": "31e388c3e21131105eee09f22eec7b7933f99faf1b7a7b3d473f129db7a4f426",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-lupiteam",
+      "name": "LupiTeam",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-lupiteam.kyyrule",
+      "packageBytes": 1361,
+      "packageSha256": "1d0aa163b5dd68309872df2e2d34d2397a21cc3e1374f78896e0310358994fde",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-magcomi",
+      "name": "MAGCOMI",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-magcomi.kyyrule",
+      "packageBytes": 2046,
+      "packageSha256": "0aac83395cd952317f92b7911bcdef664c2cc14777e70f28cfca87b3ec9d6cb1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-magkan",
+      "name": "MagKan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-magkan.kyyrule",
+      "packageBytes": 2082,
+      "packageSha256": "bad9571d88b62d66433b8728782f24a759f429e5f26e136724aa783b018b7e27",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-ja-mangamura",
+      "name": "Manga Mura",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-ja-mangamura.kyyrule",
+      "packageBytes": 1840,
+      "packageSha256": "158cf94513066877b3b6e47e7ed214a78b6b6a92d57f1de26c2cc59dad9fb6f1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manga-corporation",
+      "name": "Manga-Corporation",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manga-corporation.kyyrule",
+      "packageBytes": 1374,
+      "packageSha256": "1052579006d489410a940c2350a4736a748eaeb2aad5a98a5e98d890b025df89",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangabang-comics",
+      "name": "MangaBang Comics",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangabang-comics.kyyrule",
+      "packageBytes": 2080,
+      "packageSha256": "915bd9afe5b0a997153d1a82d72e7f3391d6b259c36b4662e257d1fc05941825",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-mangademon",
+      "name": "MangaDemon",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-mangademon.kyyrule",
+      "packageBytes": 1685,
+      "packageSha256": "feca506df3b8d7933a67faf95a655362e53fb0d79e01f2fbaa5a4d54ee969807",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangafox-fun",
+      "name": "MangaFox.fun",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangafox-fun.kyyrule",
+      "packageBytes": 2330,
+      "packageSha256": "33bc57cc2a40e3375c5a396679779f680db64b11e432ed226c1ec94cc0d840b8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangahere-onl",
+      "name": "MangaHere.onl",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangahere-onl.kyyrule",
+      "packageBytes": 2341,
+      "packageSha256": "90a1dda40aa4e4955a10e46f087ab4342b442ce98abfb502fbe79b8d29dfe694",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangakakalot-fun",
+      "name": "Mangakakalot.fun",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangakakalot-fun.kyyrule",
+      "packageBytes": 2346,
+      "packageSha256": "c5be8d61ccebc9714da7ab5c6790f98d178aef82e4f1f2e8b77c4e42c70a8d18",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manganel",
+      "name": "MangaNel",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manganel.kyyrule",
+      "packageBytes": 2345,
+      "packageSha256": "e894f58bcb7071661aeefadef21398ec2b4afb1ac04681ce5db5c303ed6aee24",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangaonline-fun",
+      "name": "MangaOnline.fun",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangaonline-fun.kyyrule",
+      "packageBytes": 2354,
+      "packageSha256": "3bda2b05450cf5e87e2f35ca20623edec82747cee879830b7b3c753865c7875b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangatellers",
+      "name": "Mangatellers",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangatellers.kyyrule",
+      "packageBytes": 1406,
+      "packageSha256": "05792d00c3716696bf7320b5104f3ea43b5c2730751c60e6215c9e54e29dedff",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangatoday",
+      "name": "MangaToday",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangatoday.kyyrule",
+      "packageBytes": 2353,
+      "packageSha256": "e31314d6797e22a23fa4d1ae105ddb78903f3b8f8b207d305691b0cb2c1aeb95",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-it-mangaworld",
+      "name": "MangaWorld",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-it-mangaworld.kyyrule",
+      "packageBytes": 1358,
+      "packageSha256": "dbd66a10b72397c0d3dbf602ef2533e162b290e1d390a037bfe5a236edd85326",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-manhuaplusorg",
+      "name": "Manhuaplus.org",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-manhuaplusorg.kyyrule",
+      "packageBytes": 1773,
+      "packageSha256": "f44bb7c3f08093a542c76b396367778dccb05d177100061a2ee641db14d95797",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-menudo-fansub",
+      "name": "Menudo-Fansub",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-menudo-fansub.kyyrule",
+      "packageBytes": 1424,
+      "packageSha256": "ec5379ea2205cec94f9e7927ca18207abe47effeaa9b70da96e498e8c29df051",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-id-natsu",
+      "name": "Natsu",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-id-natsu.kyyrule",
+      "packageBytes": 1769,
+      "packageSha256": "5f9e97546f17a1b133385ae45e1dc909eaa68f8a50f6788310da4f38154aa0f2",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-nifteam",
+      "name": "NIFTeam",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-nifteam.kyyrule",
+      "packageBytes": 1416,
+      "packageSha256": "461f2916427e831856230551a6afba6d94e888f8f365a3257294f1ab497dc5ab",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-onemanga-info",
+      "name": "OneManga.info",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-onemanga-info.kyyrule",
+      "packageBytes": 2357,
+      "packageSha256": "a459689552326421348e50e6746f8ba30ad0aff51fce4740a0f26416cc4ad7f6",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-orion-scans",
+      "name": "Orion Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-orion-scans.kyyrule",
+      "packageBytes": 2050,
+      "packageSha256": "b22ec401214a8decc16a27495dde0e3c530fe83e2dc3d41be129e5e633d0a08d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-phoenix-scans",
+      "name": "Phoenix Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-phoenix-scans.kyyrule",
+      "packageBytes": 1374,
+      "packageSha256": "b5a0544242733938112326408f0ff10611bb9a5a59ea188ec9e66711ead73161",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-renascans",
+      "name": "Renascans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-renascans.kyyrule",
+      "packageBytes": 2081,
+      "packageSha256": "ce23adb55cebe9dae381037d572db383fdba95b817e9c50b3cd7d7e19316e94d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-rimacomiplus",
+      "name": "RimacomiPlus",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-rimacomiplus.kyyrule",
+      "packageBytes": 2113,
+      "packageSha256": "3badd23753b4ae796ecf2f41ed3c9739a0a4b4bbe55d180f8592524efe83bd4d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-sana-scans",
+      "name": "Sana Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-sana-scans.kyyrule",
+      "packageBytes": 1850,
+      "packageSha256": "45b2ead18abd400d8b05c849ab4324318989f16a325529404b5a962a8ac95cdf",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-shonen-jump",
+      "name": "Shonen Jump+",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-shonen-jump.kyyrule",
+      "packageBytes": 2054,
+      "packageSha256": "80987dd97729620a03c2b09e6e409b544820ca8d222a1da7778fc6a1ce41d5d0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-sunday-web-every",
+      "name": "Sunday Web Every",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-sunday-web-every.kyyrule",
+      "packageBytes": 2009,
+      "packageSha256": "0fe5f22ceda95238677f969c565bcdbc2e824cc34060483e21f935515c92d42b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-takecomic",
+      "name": "TakeComic",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-takecomic.kyyrule",
+      "packageBytes": 2296,
+      "packageSha256": "6caa49e32d586be8b03a8154b345b4dbbcf775a423d757650863954ff39b4071",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-tcbscans",
+      "name": "TCB Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-tcbscans.kyyrule",
+      "packageBytes": 1473,
+      "packageSha256": "1702e0e9911b08d9f8f62414c298dbe3b6b2597300aebe59f238a523e33fb770",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-tonari-no-young-jump",
+      "name": "Tonari no Young Jump",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-tonari-no-young-jump.kyyrule",
+      "packageBytes": 2081,
+      "packageSha256": "59dd81bef8bdd45bbd51d9294bf65f938293d5b2f6c3c4a7faed824e5529e2a5",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-vi-truyenqq2",
+      "name": "TruyenQQ2",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-vi-truyenqq2.kyyrule",
+      "packageBytes": 1766,
+      "packageSha256": "fc4eaca4719c692378aabf34dd482fe42e1cc2c26850f9a577ff487a1f3b3b28",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-tuttoanimemanga",
+      "name": "TuttoAnimeManga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-tuttoanimemanga.kyyrule",
+      "packageBytes": 1374,
+      "packageSha256": "5469627ad5eab6c85241d1383bd86e8d14113ac290a61b971c557e1825e96182",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-en-weebcentral",
+      "name": "Weeb Central",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-en-weebcentral.kyyrule",
+      "packageBytes": 1750,
+      "packageSha256": "d5598d6fd6ecfbd1bbf002d98bf946c32145dc426f72529d56061508014f880f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-young-animal",
+      "name": "Young Animal",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-young-animal.kyyrule",
+      "packageBytes": 2320,
+      "packageSha256": "8e55bb02106985dac460faed2ae43f4bfe54db13965115a579028b5f1b23563d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-young-champion",
+      "name": "Young Champion",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-young-champion.kyyrule",
+      "packageBytes": 2364,
+      "packageSha256": "2db02604eb924ca416cdce90d72fd8f9593f6b507a5642ed3547a4ec07414c2c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-zenon",
+      "name": "Zenon",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-zenon.kyyrule",
+      "packageBytes": 1981,
+      "packageSha256": "18626aa2ceff5998fdd845a44660c34ddbaf4d4815139db175b54eace576cbb7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "aidoku-zh-zerobyw",
+      "name": "zero搬运网",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/aidoku-zh-zerobyw.kyyrule",
+      "packageBytes": 2960,
+      "packageSha256": "7e5c57b21c75ad73012d6e5516b7838bf52ed2007d0fb341bcb6b53605bf290e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "manwayu-plus",
+      "name": "漫蛙2+",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/manwayu-plus.kyyrule",
+      "packageBytes": 3432,
+      "packageSha256": "968f4f563035aebc27c4e0d3a66bdc4bcecce1d1601b96157161637722e43fba",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "klmanga",
+      "name": "JF",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/klmanga.kyyrule",
+      "packageBytes": 2174,
+      "packageSha256": "6ed4561b82c46a6f07e93394e3cc51bb799f54b17cbd6d9ded9065961ac7fb05",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "rawkuma",
+      "name": "Rawkuma",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/rawkuma.kyyrule",
+      "packageBytes": 2245,
+      "packageSha256": "9a1f36cf14d2934805bd46a2523a82e4be0fdd75ddaf91cf72955814987880d9",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangaraw-best",
+      "name": "Manga Raw (mangaraw.best)",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangaraw-best.kyyrule",
+      "packageBytes": 1529,
+      "packageSha256": "a6aa45ae5ab94189a4aeb6c0ac19e18d49062176cfea23c57c4ff00ddac370ea",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "rawkuro",
+      "name": "RawKuro",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/rawkuro.kyyrule",
+      "packageBytes": 1732,
+      "packageSha256": "8195518c3e5bbfd78b1cb3d0565333c0ddc773c4c296f165e45d36413c06544f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "deviantart",
+      "name": "DeviantArt",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/deviantart.kyyrule",
+      "packageBytes": 1544,
+      "packageSha256": "dde8d16f3f0d631e3965778d498e6150862c3f4c9eef4a192d10778e525f1c74",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "raw1001",
+      "name": "raw1001",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/raw1001.kyyrule",
+      "packageBytes": 1728,
+      "packageSha256": "ee1fdca1821992082f5cdb17d8fd5da26837214c41d80a021aac10197617da70",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangakoma",
+      "name": "Manga Koma",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangakoma.kyyrule",
+      "packageBytes": 1729,
+      "packageSha256": "4a94aedb84620991db66577e772cf71779c5c6eeef6a2acbfedba396d53e2aee",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "comics-valley",
+      "name": "Comics Valley",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/comics-valley.kyyrule",
+      "packageBytes": 1974,
+      "packageSha256": "16fc33381d01a0a185ed519ed72b34cd644649c482820585f9e9e100b80943a3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-galaxydegenscans",
+      "name": "GalaxyDegenScans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-galaxydegenscans.kyyrule",
+      "packageBytes": 2476,
+      "packageSha256": "ec8023f8edf77037dae3d8b19747c8c8d4c289f763bdda1e136a331f915f714b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangasushi",
+      "name": "MangaSushi",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangasushi.kyyrule",
+      "packageBytes": 2428,
+      "packageSha256": "af3a1994daabf844cc5e5971fb4b4c28828a7e478c921ac7c984d5fee3929ced",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manhuahot",
+      "name": "ManhuaHot",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manhuahot.kyyrule",
+      "packageBytes": 2404,
+      "packageSha256": "80e7134a18e48ab274a196fc5477b33102129031c26c8aa0939a9f748fd2a325",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manhwanex",
+      "name": "ManhwaNex",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manhwanex.kyyrule",
+      "packageBytes": 2385,
+      "packageSha256": "f852b24d6b1ed50c8c28611cbd6d69c116c4481cd23784f4627d8b5ee3f3e268",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-tritiniascans",
+      "name": "TritiniaScans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-tritiniascans.kyyrule",
+      "packageBytes": 2469,
+      "packageSha256": "59972629f4663d038f01bc16e2cd845c5848ed9225a3bd0b68bd3eebfbe3f349",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manga3asq",
+      "name": "مانجا العاشق",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manga3asq.kyyrule",
+      "packageBytes": 2476,
+      "packageSha256": "a46eb56bb1e3f6bb3197ae6d168bc4a1ddcda69cfbffe00a913a664b188b4c59",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-bunmanga",
+      "name": "Bun Manga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-bunmanga.kyyrule",
+      "packageBytes": 2396,
+      "packageSha256": "98416f059df79e600a51a1a9c735f9f168c4fa9ee10ffa345b9533ebefde26e1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-richtoscan",
+      "name": "RichtoScan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-richtoscan.kyyrule",
+      "packageBytes": 2393,
+      "packageSha256": "3776518d250194a2e4082158be3f44ac2e7cd2027070eda169d82383e3c04b77",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-ninjascan",
+      "name": "Ninja Scan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-ninjascan.kyyrule",
+      "packageBytes": 2549,
+      "packageSha256": "0a72cd6d69346f38d8c0dddb64860c7c70d848e9454c85a567cc56fe8a2537e5",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangawow",
+      "name": "MangaWOW",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangawow.kyyrule",
+      "packageBytes": 2433,
+      "packageSha256": "66ee8d3921f224b17af7558b98f5e213dcf96ddb64c414aecdb2f04fa97d74c9",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "mangayomi-merlin-shoujo-487637789",
+      "name": "Merlin Shoujo",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/mangayomi-merlin-shoujo-487637789.kyyrule",
+      "packageBytes": 2602,
+      "packageSha256": "dca4bfd0d8c330cb8e5292a6afb9afc433d97e5d026b77ffb70fd813da8675b4",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-luascans",
+      "name": "Lua Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-luascans.kyyrule",
+      "packageBytes": 1974,
+      "packageSha256": "79fc701202b106f8183b75259d6d91a597f761e3762c5cbfccbdcb3a52f79e39",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-jinmangas",
+      "name": "Jinmangas",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-jinmangas.kyyrule",
+      "packageBytes": 2217,
+      "packageSha256": "434bf084e3ec646f574983255313f5c9615d6f5d0bd2b0b5b5c4f17cf4c89f7d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-likemangain",
+      "name": "MangaYY",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-likemangain.kyyrule",
+      "packageBytes": 2572,
+      "packageSha256": "2dd1bbf37c4451915067a5f1f149cc85c38376a5380a603b96cc7668ad64a857",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangareadorg",
+      "name": "MangaRead.org",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangareadorg.kyyrule",
+      "packageBytes": 2545,
+      "packageSha256": "7fcaf69e3f4d0b159c53e758d31fd312610bac1295e01429765564440344c979",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-wearehunger",
+      "name": "KokoMangas",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-wearehunger.kyyrule",
+      "packageBytes": 2284,
+      "packageSha256": "6bea3786a1ca393b3672ac49d9b118f6bcdc35b20f96c265c0571636175ce44e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-kazokuden",
+      "name": "Kazoku Den",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-kazokuden.kyyrule",
+      "packageBytes": 2421,
+      "packageSha256": "d6913ca351e389cc63962b119665a881645fd0e612c94315b9d6cba076e85704",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-kmansin09",
+      "name": "Kmansin09",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-kmansin09.kyyrule",
+      "packageBytes": 2405,
+      "packageSha256": "f97cfef56e089e62ada2ed62e46f49d9317ead11ab3bad1359141d0ab31fd904",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-arthurscan",
+      "name": "Arthur Scan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-arthurscan.kyyrule",
+      "packageBytes": 2649,
+      "packageSha256": "f095a9c1df597802c7740cb1ed3918138ab78c575fb30d243fce2a7233d1b641",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-anikiga",
+      "name": "Anikiga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-anikiga.kyyrule",
+      "packageBytes": 2422,
+      "packageSha256": "bb5d6af0ceea437586def00c4fcc9b2ef4537c69930e8951b55d6eab3a9562cb",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-domalfansub",
+      "name": "Domal Fansub",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-domalfansub.kyyrule",
+      "packageBytes": 2445,
+      "packageSha256": "0403af700ddbe6f45d67970874658062a525e286ac790ff7c624c77973aad4cf",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-sunsetmanga",
+      "name": "Sunset Manga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-sunsetmanga.kyyrule",
+      "packageBytes": 2457,
+      "packageSha256": "adab8e6bd6ff38ed83bddb93a0c251f8c1f08b66d0fd791f4b8262805bb1d10b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-tortugaceviri",
+      "name": "Tortuga Ceviri",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-tortugaceviri.kyyrule",
+      "packageBytes": 2253,
+      "packageSha256": "6cf8437fba8c56851dbb582bf55a9f4bc7cdd1ebec4f6f4d381b314d9ee9b2a1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-borutoexplorer",
+      "name": "Boruto Explorer",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-borutoexplorer.kyyrule",
+      "packageBytes": 2336,
+      "packageSha256": "c9cfaeb9e7509b2397e74f9e236b54dd2d809240542259a76fac99afeaf5f981",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manhuanext",
+      "name": "Manhuanext",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manhuanext.kyyrule",
+      "packageBytes": 2385,
+      "packageSha256": "2cf751b4563c52ded51773cc077c081d1289786f07ae38b7e620ff15721389d0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-kamisamaexplorer",
+      "name": "Kami Sama Explorer",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-kamisamaexplorer.kyyrule",
+      "packageBytes": 2584,
+      "packageSha256": "b12b49739e4a13bcb36d7d58d450db2a56a0a0ffd3879ccd23574de48caaa252",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-lagoonscans",
+      "name": "Lagoon Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-lagoonscans.kyyrule",
+      "packageBytes": 2653,
+      "packageSha256": "ada87159d28c69727b838508d3829a513a3b257c64c0783daf34868fe0cb1792",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-uchuujinprojects",
+      "name": "Uchuujin Projects",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-uchuujinprojects.kyyrule",
+      "packageBytes": 2714,
+      "packageSha256": "4b47e69c5eab068ecf34310a13e59b6a828c20ed052d90dfaa44ed4c7cc4dd07",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-gaiatoon",
+      "name": "Gaiatoon",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-gaiatoon.kyyrule",
+      "packageBytes": 2654,
+      "packageSha256": "de058b544c3717bdd365701053c6e938653e38b1c542e1aca407c1c69f87428b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-koreliscans",
+      "name": "Koreli Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-koreliscans.kyyrule",
+      "packageBytes": 2709,
+      "packageSha256": "6345648bdca6def931ae1045736fcc376fca2a34003e0fcc44c67492defe358f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-sereinscan",
+      "name": "Serein Scan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-sereinscan.kyyrule",
+      "packageBytes": 2640,
+      "packageSha256": "cc3c635deb0e1a72aedb1b9636ab62e2849af4f4b7db1cf20bba671c621daed3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-genztoons",
+      "name": "Genz Toons",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-genztoons.kyyrule",
+      "packageBytes": 2114,
+      "packageSha256": "1d86d3daad279343bb29367bcd2f5b5cd9b69faff26f5294ba4a1a048880bb87",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-nyanukafe",
+      "name": "Nyanu Kafe",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-nyanukafe.kyyrule",
+      "packageBytes": 3793,
+      "packageSha256": "989910554fee95fd6176efb945b048878ec9fe6171d5456e37f59e6bdeab04f0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-timelesstoons",
+      "name": "TimelessToons",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-timelesstoons.kyyrule",
+      "packageBytes": 7662,
+      "packageSha256": "ee09334f76946e6a55f5c5ea606f523aa93d6c2c35557610c91ac09b07eefa4e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-writerscans",
+      "name": "Writer Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-writerscans.kyyrule",
+      "packageBytes": 4389,
+      "packageSha256": "398229fa1edaa53b8a60ddc6bbe6a279d4eea8b9e1e94166d85d5cfa7d023d37",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-grimscans",
+      "name": "Grim Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-grimscans.kyyrule",
+      "packageBytes": 4362,
+      "packageSha256": "33133e252cec4ff8b786ad3482f7907c6904a067f5dab3b8ca0fa98afadd3e0c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-ritharscans",
+      "name": "RitharScans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-ritharscans.kyyrule",
+      "packageBytes": 3413,
+      "packageSha256": "83defee547ea5d12301043bd45074679c596f2597e4c95c53ac5d33a6c98eae2",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-turkcemangaoku",
+      "name": "Türkçe Manga Oku",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-turkcemangaoku.kyyrule",
+      "packageBytes": 2445,
+      "packageSha256": "cf546c5d799b13db62360e5c712c40ed6e980a018e274323c351c99516a8636a",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-lelmanga",
+      "name": "Lelmanga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-lelmanga.kyyrule",
+      "packageBytes": 2680,
+      "packageSha256": "f6a08ab246f18de1f4f4f4e155cfdea33b1d3135431da2d3673723339fedc274",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-ler999",
+      "name": "Ler 999",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-ler999.kyyrule",
+      "packageBytes": 2049,
+      "packageSha256": "d32038dbd98ac0ceb5fa832282f87269395f8a8bffb884d3a803e2ed2a55e83f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-lepoytl",
+      "name": "LepoyTL",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-lepoytl.kyyrule",
+      "packageBytes": 2004,
+      "packageSha256": "5547b3f84bd4d7f9211ea76e22df517aee9169c7cf0b55ae2090760a56bfdb78",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-xsanomanga",
+      "name": "XSano Manga",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-xsanomanga.kyyrule",
+      "packageBytes": 2016,
+      "packageSha256": "1afa43369657ff1794f6c2e18e17830aeb0e56316d67c70af83a5ab33e612039",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-apenasumafa",
+      "name": "Apenas Uma Fã",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-apenasumafa.kyyrule",
+      "packageBytes": 1832,
+      "packageSha256": "ead12677042fba3529d612732e77ded7dab9f6aecc1252a8b0c04a19e6a1ae26",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-manhatok",
+      "name": "Manhatok",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-manhatok.kyyrule",
+      "packageBytes": 2040,
+      "packageSha256": "f1baa4870dcc5b331bbe7d6e2803b2f01b16c4412a114edc90b9fa744ae44b6c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-comicverse",
+      "name": "Comic Verse",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-comicverse.kyyrule",
+      "packageBytes": 1953,
+      "packageSha256": "c074c5c30bac44ee346d9b528671bf9f7517ddd04c5aff06f9bfff56e5b2a39b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-sapphirescan",
+      "name": "SapphireScan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-sapphirescan.kyyrule",
+      "packageBytes": 2045,
+      "packageSha256": "5cc5eb2df89b14a45a91a87e8d185703ecd24054178a34cb4aac59796b0d1b09",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-akazascans",
+      "name": "Akaza Scans",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-akazascans.kyyrule",
+      "packageBytes": 2693,
+      "packageSha256": "1f3f3e292c6d045505d00dc2e775c4bf2623a6c61a9ffeb0a59b55af0d574121",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-pmscans",
+      "name": "Rackus",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-pmscans.kyyrule",
+      "packageBytes": 2686,
+      "packageSha256": "29696c05f366ff3d365b3a0dceba25366937818216eee282d1276c648dfd5240",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-cafecomyaoi",
+      "name": "Café com Yaoi",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-cafecomyaoi.kyyrule",
+      "packageBytes": 2102,
+      "packageSha256": "dce9e67559b05a8acd4770bba352f7581eaa9bef38f1128d97866dae6c0a9d36",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-cocomic",
+      "name": "Cocomic",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-cocomic.kyyrule",
+      "packageBytes": 2108,
+      "packageSha256": "0b01661de916e2959fac4e25a9214f8a81c16fd6e58d61219332ce89f20dc41d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangalek",
+      "name": "مانجا ليك",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangalek.kyyrule",
+      "packageBytes": 2305,
+      "packageSha256": "aad140cf86435cf6c891dba2d470a09fce55f4f1520edcd34547fdb9984c8e09",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangalionz",
+      "name": "MangaLionz",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangalionz.kyyrule",
+      "packageBytes": 2300,
+      "packageSha256": "4e78ee38b7e50909b9d6c1b99b93b97ce8b23c6deb044c5c5e5f03f412a7cd34",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-mangastarz",
+      "name": "Manga Starz",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-mangastarz.kyyrule",
+      "packageBytes": 2305,
+      "packageSha256": "6bc4dfdb6117ea3c4998d2e0ab87b4ce02db19763bafa2c852f4f80d53614303",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-monopolyscan",
+      "name": "Monopoly Scan",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-monopolyscan.kyyrule",
+      "packageBytes": 2266,
+      "packageSha256": "b299ac0b79d8300d203c6b9fcad23c506c979f4a9b7cd44898abec5b9fb952e3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    },
+    {
+      "id": "keiyoushi-yakshacomics",
+      "name": "YakshaComics",
+      "url": "https://github.com/kiokuyomi-Community/sources/releases/download/rules-b5205e277c992a74-20260927130644/keiyoushi-yakshacomics.kyyrule",
+      "packageBytes": 2069,
+      "packageSha256": "bc2d7fc21c515175c0f4c052f71689678df4c23204308b270a6aa1581ac93a46",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+name: Sync encrypted rule release
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: encrypted-rule-publication
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test publisher safety boundaries
+        run: python3 -m unittest discover -s tests -v
+      - name: Prepare, upload draft, verify digests, then publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/mirror_release.py --output dist --publish
+      - name: Update subscription pointers only after verified publication
+        run: |
+          set -euo pipefail
+          for file in all.json general.json sources.json publication.json; do
+            cp "dist/$file" "$file"
+          done
+          git add -- all.json general.json sources.json publication.json
+          if git diff --cached --quiet; then
+            echo "Subscriptions already current."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Sync verified encrypted rule release'
+          git push origin HEAD:main
