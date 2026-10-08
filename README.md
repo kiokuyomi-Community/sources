@@ -27,18 +27,6 @@ https://raw.githubusercontent.com/kiokuyomi-Community/sources/main/general.json
 https://raw.githubusercontent.com/kiokuyomi-Community/sources/main/all.json
 ```
 
-## 旧订阅地址兼容
-
-GitHub 分发渠道是新增入口，已有订阅无需切换地址、重新导入或重装 App。
-旧订阅地址及其分发链保持不变，包括：
-
-```text
-https://sources.kiokuyomi.com/general.json
-https://sources.kiokuyomi.com/all.json
-https://rooou.github.io/kiokuyomi-sources/all.json
-https://raw.githubusercontent.com/ROOOU/kiokuyomi-sources/main/all.json
-```
-
 ## 反馈与移除请求
 
 版本、导入问题或移除请求，请通过[仓库 Issues](https://github.com/kiokuyomi-Community/sources/issues) 提交。
@@ -49,4 +37,4 @@ https://raw.githubusercontent.com/ROOOU/kiokuyomi-sources/main/all.json
 
 ## 开发文档
 
-分发架构、兼容性细节、发布流程和本地验证方式见 [开发与维护说明](docs/DEVELOPMENT.md)。
+分发架构、发布流程和本地验证方式见 [开发与维护说明](docs/DEVELOPMENT.md)。
