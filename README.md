@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/ROOOU/kiokuyomi-sources/main/all.json
 
 ## 反馈与移除请求
 
-维护者：[ROOOU](https://github.com/ROOOU)。版本、导入或移除请求可通过[仓库 Issues](https://github.com/kiokuyomi-Community/sources/issues) 联系。
+版本、导入问题或移除请求，请通过[仓库 Issues](https://github.com/kiokuyomi-Community/sources/issues) 提交。
 权利方请提供规则 ID、涉及的权利及可核实的请求依据；不要在公开 Issue 上传身份证明、
 账号凭据、私密材料或受版权保护的完整内容。移除需同步正式上游及相应分发渠道，而不只是改 README。
 
