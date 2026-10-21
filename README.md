@@ -1,6 +1,10 @@
-# KiokuYomi Community Sources
+# Community Rule Sources
 
-本仓库提供可供 KiokuYomi 导入的可选加密规则集合，通过 GitHub Releases 分发。
+本仓库由独立社区维护，提供可供兼容阅读器（包括 KiokuYomi）导入的可选加密规则集合，
+通过 GitHub Releases 分发。
+
+本仓库与 KiokuYomi 开发者没有隶属关系，也不是任何 App 的官方仓库。规则由社区成员
+自行制作和提交；开发者不审核、不推荐、不保证这些规则，App 也不内置任何第三方站点。
 
 本仓库不托管漫画或视频内容。使用者应仅访问已获授权的内容，并遵守适用法律及相关服务条款。
 
