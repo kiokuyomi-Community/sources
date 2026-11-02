@@ -32,6 +32,10 @@ COLLECTION_REQUIRED = {"kind", "schemaVersion", "name", "catalogSequence", "rele
 COLLECTION_OPTIONAL = {"minimumRuleEngineVersion"}
 ENTRY_REQUIRED = {"id", "name", "url", "packageBytes", "packageSha256", "contentRating"}
 ENTRY_OPTIONAL = {"minimumRuleEngineVersion"}
+CATALOG_URL = f"{UPSTREAM}/v1/rule-catalog"
+COLLECTION_NAMES = {"all": "KiokuYomi", "general": "KiokuYomi 综合（不含成人来源）"}
+# Mirrors the upstream site's App display names so subscriptions keep the same rows.
+DISPLAY_NAMES = {"godamanga": "G社漫畫", "klmanga": "JF", "manhuascans-org": "GodaComic", "miaoqumh": "妙趣漫画"}
 
 
 class MirrorError(ValueError):
@@ -134,6 +138,59 @@ def check_pair(all_collection: dict, general: dict) -> None:
     require(general["rules"] == expected, "general collection is not the exact non-adult subset")
 
 
+def collections_from_catalog(data: bytes) -> dict[str, dict]:
+    """Builds both subscription collections from the distribution catalog.
+
+    The upstream website no longer publishes importable collections, so the
+    mirror derives them from the catalog the App distribution Worker serves.
+    Its Ed25519 signature is left to the App, consistent with package handling.
+    """
+    envelope = parse_json(data, MAX_MANIFEST)
+    exact_fields(envelope, {"payload", "signature"})
+    catalog = parse_json(decode_base64url(envelope["payload"]), MAX_MANIFEST)
+    require(catalog.get("kind") == "ruleCatalog" and catalog.get("schemaVersion") == 1, "unsupported rule catalog")
+    release, sequence = catalog.get("releaseId"), catalog.get("sequence")
+    require(isinstance(release, str) and SEGMENT.fullmatch(release), "invalid release ID")
+    integer(sequence, 0, 2**53 - 1, "catalog sequence")
+    rules = catalog.get("rules")
+    require(isinstance(rules, list) and rules, "catalog has no rules")
+    entries = []
+    for rule in rules:
+        require(isinstance(rule, dict), "expected a JSON object")
+        rule_id = rule.get("id")
+        require(isinstance(rule_id, str) and SEGMENT.fullmatch(rule_id), "invalid or duplicate rule ID")
+        require(rule.get("packagePath") == f"/v1/rule-packages/{release}/{rule_id}.kyyrule",
+                "package URL outside approved immutable release")
+        entries.append(({"priority": rule.get("priority", 100)}, {
+            "id": rule_id,
+            "name": DISPLAY_NAMES.get(rule_id, rule.get("name")),
+            "url": UPSTREAM + rule["packagePath"],
+            "packageBytes": rule.get("packageBytes"),
+            "packageSha256": rule.get("packageSha256"),
+            "contentRating": rule.get("contentRating"),
+            "minimumRuleEngineVersion": rule.get("minimumRuleEngineVersion", 1),
+        }))
+    require(all(type(meta["priority"]) is int for meta, _ in entries), "invalid rule priority")
+    entries.sort(key=lambda item: (item[0]["priority"], str(item[1]["name"]).casefold(), item[1]["id"]))
+    ordered = [entry for _, entry in entries]
+    result = {}
+    for channel, bundle_key in (("all", "bundle"), ("general", "generalBundle")):
+        bundle = catalog.get(bundle_key)
+        require(isinstance(bundle, dict) and bundle.get("path") == f"/v1/rule-bundles/{release}/{channel}.kyybundle",
+                "bundle URL outside approved immutable release")
+        selected = [copy.deepcopy(entry) for entry in ordered
+                    if channel == "all" or entry["contentRating"] != "adult"]
+        require(selected, "collection has no rules")
+        result[channel] = {
+            "kind": "kiokuyomiRuleCollection", "schemaVersion": 1, "name": COLLECTION_NAMES[channel],
+            "catalogSequence": sequence, "releaseId": release, "count": len(selected),
+            "minimumRuleEngineVersion": max(entry["minimumRuleEngineVersion"] for entry in selected),
+            "bundle": {"url": UPSTREAM + bundle["path"], "bytes": bundle.get("bytes"), "sha256": bundle.get("sha256")},
+            "rules": selected,
+        }
+    return result
+
+
 def check_hash(data: bytes, size: int, sha256: str) -> None:
     require(len(data) == size and digest(data) == sha256, "byte count or SHA-256 mismatch")
 
@@ -229,10 +286,9 @@ def prepare(output: Path, fetcher: Callable[[str, int], bytes] = fetch) -> dict:
     require(not output.exists() or not any(output.iterdir()), "output directory must be empty")
     collections = {}
     original = {}
-    for channel in ("all", "general"):
-        data = fetcher(f"{UPSTREAM}/{channel}.json", MAX_MANIFEST)
-        original[channel] = digest(data)
-        collections[channel] = parse_json(data, MAX_MANIFEST)
+    data = fetcher(CATALOG_URL, MAX_MANIFEST)
+    original["catalog"] = digest(data)
+    collections.update(collections_from_catalog(data))
     check_pair(collections["all"], collections["general"])
     bundle_bytes, packages = {}, {}
     for channel, collection in collections.items():
@@ -242,9 +298,8 @@ def prepare(output: Path, fetcher: Callable[[str, int], bytes] = fetch) -> dict:
     require(all(packages["all"][key] == value for key, value in packages["general"].items()),
             "general and all ciphertext differ")
     # Re-read mutable channels to fail safely during an upstream release transition.
-    for channel in ("all", "general"):
-        require(digest(fetcher(f"{UPSTREAM}/{channel}.json", MAX_MANIFEST)) == original[channel],
-                "upstream changed while preparing release; retry next run")
+    require(digest(fetcher(CATALOG_URL, MAX_MANIFEST)) == original["catalog"],
+            "upstream changed while preparing release; retry next run")
     release = collections["all"]["releaseId"]
     output.mkdir(parents=True, exist_ok=True)
     for channel, collection in collections.items():

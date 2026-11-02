@@ -47,7 +47,19 @@ def fixtures(sequence=39):
                                  "bytes": len(data), "sha256": m.digest(data)}}
         result[f"{m.UPSTREAM}/{channel}.json"] = raw_json(collection)
         result[collection["bundle"]["url"]] = data
+    catalog = {"kind": "ruleCatalog", "schemaVersion": 1, "releaseId": release, "sequence": sequence,
+               "bundle": bundle_meta(result, release, "all"), "generalBundle": bundle_meta(result, release, "general"),
+               "rules": [{"id": rule["id"], "name": rule["name"], "priority": index,
+                          "packagePath": f"/v1/rule-packages/{release}/{rule['id']}.kyyrule",
+                          "packageBytes": rule["packageBytes"], "packageSha256": rule["packageSha256"],
+                          "contentRating": rule["contentRating"], "minimumRuleEngineVersion": 1} for index, rule in enumerate(rules)]}
+    result[m.CATALOG_URL] = raw_json({"payload": encoded(raw_json(catalog)), "signature": "unverified-by-mirror"})
     return result, raw_packages
+
+
+def bundle_meta(files, release, channel):
+    data = files[f"{m.UPSTREAM}/v1/rule-bundles/{release}/{channel}.kyybundle"]
+    return {"path": f"/v1/rule-bundles/{release}/{channel}.kyybundle", "bytes": len(data), "sha256": m.digest(data)}
 
 
 class CollectionTests(unittest.TestCase):
@@ -195,6 +207,20 @@ class PublicationTests(unittest.TestCase):
             self.assertNotIn("/latest/", mirrored["bundle"]["url"])
             self.assertEqual((self.output / (channel + ".kyybundle")).read_bytes(), self.files[source["bundle"]["url"]])
         self.assertEqual((self.output / "sources.json").read_bytes(), (self.output / "all.json").read_bytes())
+
+    def test_collections_are_derived_from_distribution_catalog(self):
+        collections = m.collections_from_catalog(self.files[m.CATALOG_URL])
+        m.check_pair(collections["all"], collections["general"])
+        self.assertEqual([rule["id"] for rule in collections["general"]["rules"]], ["sample"])
+        self.assertEqual(collections["all"]["name"], m.COLLECTION_NAMES["all"])
+
+    def test_catalog_rejects_package_outside_release(self):
+        envelope = json.loads(self.files[m.CATALOG_URL])
+        catalog = json.loads(base64.urlsafe_b64decode(envelope["payload"] + "=="))
+        catalog["rules"][0]["packagePath"] = "/v1/rule-packages/other/sample.kyyrule"
+        envelope["payload"] = encoded(raw_json(catalog))
+        with self.assertRaises(m.MirrorError):
+            m.collections_from_catalog(raw_json(envelope))
 
     def test_output_must_be_empty(self):
         with self.assertRaises(m.MirrorError):
