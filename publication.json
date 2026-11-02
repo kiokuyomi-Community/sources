@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "rules-34e1540c49272025-48",
-  "catalogSequence": 48,
+  "releaseId": "rules-91f6600c872d9542-49",
+  "catalogSequence": 49,
   "count": 249,
   "generalCount": 153,
   "upstream": "https://sources.kiokuyomi.com",
   "upstreamManifestSha256": {
-    "catalog": "d366d02a86233776c0f827c4b02dce3e84be6d06e65c851aaba2aa50c90c3c7e"
+    "catalog": "9fe24f8acef50da9ece77bdd602c922fb96f1f201c7fb31ece02dc08c0fcbd92"
   }
 }
